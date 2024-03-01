@@ -1,18 +1,30 @@
-# Vue 3 + TypeScript + Vite
+# LEOSTAR-UI Component library
+<p align=center><img algn=center width="300px" src="./docs/public/logo.svg"></p>
+<p align="center">
+  <a href="https://ui.leostar.top/" target="_blank">
+  👀 Online preview
+  </a>|
+  <a href="./README-zh_CN.md">
+  📃 简体中文
+  </a>|
+  <a href="https://github.com/LeoStar-UI/leostar-ui">
+  ✌️ Quick Start
+  </a>
+</p>
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Vue3 component library
 
-## Recommended IDE Setup
+## Reference
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- [Turborepo官方文档](https://turbo.build/repo/docs)
+- [changesets](https://github.com/changesets/changesets)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tsx](https://github.com/esbuild-kit/tsx)
+- [React](https://react.docschina.org/)
+- [Unocss](https://unocss.dev/)
+- [Prettier](https://prettier.io/)
+- [ESLint](https://eslint.org/)
 
-## Type Support For `.vue` Imports in TS
+## Contribute
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
-
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+Consult the [Contribute](./CONTRIBUTING.md) documentation first
