@@ -3,12 +3,12 @@ import Vue from '@vitejs/plugin-vue'
 import UnoCSS from 'unocss/vite'
 import VueJSX from '@vitejs/plugin-vue-jsx'
 import AutoImport from 'unplugin-auto-import/vite'
+import dts from "vite-plugin-dts";
 
 // https://vitejs.dev/config/
 export default defineConfig({
   build: {
-    outDir: 'es',
-    minify: false,
+    emptyOutDir: false,
     rollupOptions: {
       external: ['vue'],
       output: {
@@ -20,13 +20,15 @@ export default defineConfig({
     },
     lib: {
       entry: './src/index.ts',
-      name: 'leostar-ui',
-      formats: ['es', 'umd', 'cjs'],
+      name: 'index',
+      fileName: 'index',
+      formats: ["es", "umd", "cjs"],
     },
   },
   plugins: [
     Vue(),
     VueJSX(),
+    dts(),
     UnoCSS(),
     AutoImport({
       imports: ['vue', '@vueuse/core'],

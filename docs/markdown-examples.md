@@ -8,6 +8,8 @@ VitePress provides Syntax Highlighting powered by [Shiki](https://github.com/shi
 
 **Input**
 
+<leo-button>11112</leo-button>
+
 ````md
 ```js{4}
 export default {
